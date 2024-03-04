@@ -1,0 +1,88 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Kode+Mono:wght@400..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kode+Mono:wght@400..700&family=Protest+Revolution&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Mochiy+Pop+One&family=Mochiy+Pop+P+One&display=swap');
+
+*{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+
+#root {
+  width: 100vw;
+  height:100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #e1b2f3;
+}
+
+#container{
+
+  width:100vw;
+  height:100vh;
+  /* border:2px solid rgb(201, 6, 6); */
+  height:100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+#container .heading {
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#container .heading h1{
+
+    font-family: "Mochiy Pop One", sans-serif;
+    /* font-weight: 400; */
+    font-style: normal;
+    font-size: 3rem;
+    color: blue;
+  
+}
+
+#container .heading h1 span{
+
+  color: black;
+  font-style: normal;
+  font-size: 3rem;
+ font-family: "Mochiy Pop One", sans-serif;
+}
+
+#container .heading p{
+
+  font-family: "Mochiy Pop One", sans-serif;
+  color: rgb(0, 0, 0);
+}
+
+#container .info {
+  display: flex;
+  flex-direction: column;
+  max-width: 100%;
+  /* border: 2px solid red; */
+  max-height: 100%;
+  align-items: center;
+  justify-content: center;
+}
+
+#container .info input {
+  width: 30vw;
+  height: 5vh;
+  margin: 10px 2px;
+  text-align: center;
+  font-size: 1rem;
+  outline: none;
+  border-radius: 5px;
+  border: 1px solid white;
+}
